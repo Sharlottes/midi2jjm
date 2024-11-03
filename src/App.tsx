@@ -6,6 +6,7 @@ import ColorInput from "./ColorInput";
 import JSZip from "jszip";
 import { Midi } from "@tonejs/midi";
 import MidiFile from "midi-file";
+import presets from "../assets/presets.json" assert { type: "json" };
 
 const defaultJJMData: JJMData = {
   displayName: "",
